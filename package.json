@@ -1,0 +1,8 @@
+{
+  "name": "flex-plugins",
+  "packageManager": "yarn@3.6.1",
+  "workspaces": [
+    "packages/*",
+    "plugins/*"
+  ]
+}
