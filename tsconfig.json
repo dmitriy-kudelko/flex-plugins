@@ -22,18 +22,5 @@
     "jsx": "preserve",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "paths": {
-      "@/*": ["src/*"],
-      "~/*": ["./*"]
-    }
-  },
-  "include": [
-    "src",
-    "babel.config.js",
-    "custom.d.ts",
-    "jest",
-    "jest.config.ts",
-    "**/*.storybook/**/*",
-    "__mocks__"
-  ]
+  }
 }

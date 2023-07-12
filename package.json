@@ -1,8 +1,19 @@
 {
   "name": "flex-plugins",
   "packageManager": "yarn@3.6.1",
+  "engines": {
+    "node": "14"
+  },
   "workspaces": [
     "packages/*",
     "plugins/*"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "3.0.0"
+  },
+  "scripts": {
+    "library:build": "yarn workspace shared-component-library build",
+    "plugin:start": "yarn workspace plugin-sample dev",
+    "start": "yarn library:build && yarn plugin:start"
+  }
 }

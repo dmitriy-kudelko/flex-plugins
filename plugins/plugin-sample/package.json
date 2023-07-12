@@ -3,17 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "flex-plugin pre-script-check"
+    "postinstall": "flex-plugin pre-script-check",
+    "dev": "twilio flex plugins start"
   },
   "dependencies": {
+    "@twilio-paste/core": "19.5.0",
+    "@twilio-paste/icons": "11.2.2",
     "@twilio/flex-plugin-scripts": "6.1.2",
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-emotion": "9.2.12"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-emotion": "9.2.12",
+    "shared-component-library": "workspace:*"
   },
   "devDependencies": {
-    "@twilio/flex-ui": "^1",
-    "react-test-renderer": "16.5.2",
-    "typescript": "^4"
+    "@twilio/flex-ui": "1.34.1",
+    "typescript": "5.1.6"
   }
 }
