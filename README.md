@@ -1,12 +1,8 @@
 ## Instructions
 
-### Prerequisites
-
-You will need a Twilio account with Flex `1.34.1` installed.
-
 ```bash
 yarn install
-yarn start
+yarn workspace plugin-sample storybook
 ```
 
-Navigate to http://localhost:3000/custom-route to explore cases.
+Navigate to http://localhost:6006/?path=/story/components-customview--default to explore cases.
