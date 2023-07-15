@@ -8489,7 +8489,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^16, @types/react-dom@npm:^16.9.14":
+"@types/react-dom@npm:^16.9.14, @types/react-dom@npm:^16.9.19":
   version: 16.9.19
   resolution: "@types/react-dom@npm:16.9.19"
   dependencies:
@@ -8566,7 +8566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^16, @types/react@npm:^16.14.15":
+"@types/react@npm:^16, @types/react@npm:^16.14.15, @types/react@npm:^16.14.43":
   version: 16.14.43
   resolution: "@types/react@npm:16.14.43"
   dependencies:
@@ -19977,8 +19977,8 @@ __metadata:
     "@twilio/flex-plugin-scripts": 6.1.2
     "@twilio/flex-ui": 1.34.1
     babel-loader: ^8.3.0
-    react: 16.13.1
-    react-dom: 16.13.1
+    react: 16.14.0
+    react-dom: 16.14.0
     react-emotion: 9.2.12
     shared-component-library: "workspace:*"
     typescript: 5.1.6
@@ -21108,21 +21108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:16.13.1":
-  version: 16.13.1
-  resolution: "react-dom@npm:16.13.1"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    prop-types: ^15.6.2
-    scheduler: ^0.19.1
-  peerDependencies:
-    react: ^16.13.1
-  checksum: 5009f3ee9bca06d6d4b9cf92c832eca102c284e6d019e832179c8de3e353534571474c95b7ab975935b22823726710dcd73783596c11dd71304beb11c19281c5
-  languageName: node
-  linkType: hard
-
-"react-dom@npm:^16, react-dom@npm:^16.5.2":
+"react-dom@npm:16.14.0, react-dom@npm:^16, react-dom@npm:^16.5.2":
   version: 16.14.0
   resolution: "react-dom@npm:16.14.0"
   dependencies:
@@ -21534,18 +21520,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:16.13.1":
-  version: 16.13.1
-  resolution: "react@npm:16.13.1"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    prop-types: ^15.6.2
-  checksum: 4508f4207caca6bef55736284cbf2ce18d2edfee4c1457fc0bb2086b34ed5bcf9b44acdb71e27574e73a5b5d4d093720b5b4ec0bf92bb89394ee3a0a7c42c2d4
-  languageName: node
-  linkType: hard
-
-"react@npm:^16, react@npm:^16.5.2":
+"react@npm:16.14.0, react@npm:^16, react@npm:^16.5.2":
   version: 16.14.0
   resolution: "react@npm:16.14.0"
   dependencies:
@@ -22770,13 +22745,13 @@ __metadata:
     "@rollup/plugin-typescript": 11.1.2
     "@twilio-paste/core": 19.5.0
     "@twilio-paste/icons": 11.2.2
-    "@types/react": ^16
-    "@types/react-dom": ^16
+    "@types/react": ^16.14.43
+    "@types/react-dom": ^16.9.19
     esbuild: 0.18.11
     esbuild-plugin-d.ts: 1.1.0
     glob: 10.3.3
-    react: 16.13.1
-    react-dom: 16.13.1
+    react: 16.14.0
+    react-dom: 16.14.0
     rollup: 3.26.2
     rollup-plugin-dts: 5.3.0
     rollup-plugin-peer-deps-external: 2.2.4
