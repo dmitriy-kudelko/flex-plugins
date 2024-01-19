@@ -8041,9 +8041,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@twilio/flex-ui-core@npm:0.60.3":
-  version: 0.60.3
-  resolution: "@twilio/flex-ui-core@npm:0.60.3"
+"@twilio/flex-ui-core@npm:0.60.5":
+  version: 0.60.5
+  resolution: "@twilio/flex-ui-core@npm:0.60.5"
   dependencies:
     "@material-ui/core": 3.9.4
     "@material-ui/icons": 2.0.3
@@ -8066,13 +8066,13 @@ __metadata:
     uuid: ^3.3.2
   peerDependencies:
     "@twilio/flex-sdk": 0.13.0
-  checksum: 1dad83d414a9bf394eb9a70227b3a853c402ae596c8535039536d33d59cd17b581f0145d2e315217251326c212b1021387f75c53b41edb9cbd8a1e815cbe852a
+  checksum: 0ce21bd6cea89e64e721f1fb4c8ca08ff901cf9941b0abca47a42eb9bce245890fa38b6e20099c87b071a50ed07b63e25e77c22d4b787d8ff10a67e35ca9e234
   languageName: node
   linkType: hard
 
-"@twilio/flex-ui@npm:1.34.1":
-  version: 1.34.1
-  resolution: "@twilio/flex-ui@npm:1.34.1"
+"@twilio/flex-ui@npm:1.34.6":
+  version: 1.34.6
+  resolution: "@twilio/flex-ui@npm:1.34.6"
   dependencies:
     "@gooddata/gooddata-js": 13.2.0
     "@material-ui/core": 3.9.4
@@ -8080,7 +8080,7 @@ __metadata:
     "@twilio/flex-insights-identity-client-js": 2.0.6
     "@twilio/flex-insights-player": 2.3.1
     "@twilio/flex-sdk": ^0.13.0
-    "@twilio/flex-ui-core": 0.60.3
+    "@twilio/flex-ui-core": 0.60.5
     "@twilio/player": ^1.1.0
     "@types/deep-diff": ^1.0.0
     "@types/react-select": 2.0.19
@@ -8117,11 +8117,11 @@ __metadata:
     reselect: 4.0.0
     semver: ~5.7.0
     twilio-chat: ~3.4.0
-    twilio-client: 1.15.0
+    twilio-client: 1.15.1
     twilio-sync: ^0.12.3
     twilio-taskrouter: ^0.8.1
     uuid: ^3.3.2
-  checksum: ffe99385b4979999f3f161bbb42ac095157ad3387fa019707add5ff37ad0fd786d31bccabdb914baa368cd39137f84ee5d0597455724b5fe4ffb4c32210ad4d9
+  checksum: 71c8ae18d618284821b66c4c92166a9d9abd6d4f8fa3b0e27caf70269fc6877de59d1c34e4b25ff8f3894d0d705077f7544313c31c1533b97cc9766d00529fd2
   languageName: node
   linkType: hard
 
@@ -19975,7 +19975,7 @@ __metadata:
     "@twilio-paste/core": 19.5.0
     "@twilio-paste/icons": 11.2.2
     "@twilio/flex-plugin-scripts": 6.1.2
-    "@twilio/flex-ui": 1.34.1
+    "@twilio/flex-ui": 1.34.6
     babel-loader: ^8.3.0
     react: 16.14.0
     react-dom: 16.14.0
@@ -24325,9 +24325,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"twilio-client@npm:1.15.0":
-  version: 1.15.0
-  resolution: "twilio-client@npm:1.15.0"
+"twilio-client@npm:1.15.1":
+  version: 1.15.1
+  resolution: "twilio-client@npm:1.15.1"
   dependencies:
     "@twilio/audioplayer": 1.0.6
     "@twilio/voice-errors": 1.0.1
@@ -24336,7 +24336,7 @@ __metadata:
     rtcpeerconnection-shim: 1.2.8
     ws: 7.4.6
     xmlhttprequest: 1.8.0
-  checksum: e9589520d676de8b1bfa0a1bc21f886c55d3556e5f918c0ae8914b31b4575a1ce2618aa8bd895adc50b72eec072a601bf127ceaa866a64b49369cb6b1d89b474
+  checksum: 224953a3c8ec10ffbe34a9c728a3773bdd486371127c789dd2c802541dc498507152eab6d74277436813421da8307d3808c2540ae253f2e975f3321e41c7665e
   languageName: node
   linkType: hard
 
