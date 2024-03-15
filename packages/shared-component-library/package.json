@@ -7,7 +7,7 @@
   "peerDependencies": {
     "@twilio-paste/core": "19.5.0",
     "@twilio-paste/icons": "11.2.2",
-    "esbuild": "^0.18.11",
+    "esbuild": "^0.18.11 || ^0.20.0",
     "esbuild-plugin-d.ts": "^1.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"
@@ -20,7 +20,7 @@
     "@twilio-paste/icons": "11.2.2",
     "@types/react": "^16.14.43",
     "@types/react-dom": "^16.9.19",
-    "esbuild": "0.18.11",
+    "esbuild": "0.20.2",
     "esbuild-plugin-d.ts": "1.1.0",
     "glob": "10.3.3",
     "react": "16.14.0",
